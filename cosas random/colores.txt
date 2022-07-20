@@ -1,0 +1,3 @@
+rgb(72,161,189) azul #48a1bd
+rgb(183,151,204) morado #b797cc
+rgb(208,173,171) naranja #d0adab

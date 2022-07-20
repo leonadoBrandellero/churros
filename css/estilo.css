@@ -1,6 +1,11 @@
+body{
+    background-color: black;
+}
+
 *{
     margin: 0%;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', 'Montserrat', sans-serif;
+    color:whitesmoke
 }
 
 h1{
@@ -18,4 +23,31 @@ h1{
 h2{
     text-align: center;
     background-color: rgb(183,151,204);
+}
+
+.churroBanner{
+    width: 100%;
+    height: 200px;
+}
+
+.stock{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.churro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.churroImg{
+    width: 100%;
+}
+
+.churroNombre{
+    display: block;
+    width: 40%;
 }
